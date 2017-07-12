@@ -1,0 +1,11 @@
+#compiled python modules
+*.pyc
+
+# setuptools distribution folder
+/dist/
+.setup.py.swp
+# virtualenv
+/venv/
+
+#python egg metadata
+/*.egg-info
