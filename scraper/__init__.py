@@ -1,2 +1,2 @@
-from .scrapebox import joke
+from .scrapebox import *
 """ This is my package constructor"""

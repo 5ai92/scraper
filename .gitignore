@@ -9,3 +9,10 @@
 
 #python egg metadata
 /*.egg-info
+
+#Ds_store
+*DS_Store
+
+#results_dir
+results_dir
+

@@ -1,0 +1,15 @@
+# This is the input yaml file, where we can pass the input
+# Enter all the docx documents that has to be converted to html under load section
+# Author: Bhargav sai Dama
+
+load:
+  - step: Loading the files to convert docx to html
+    action: docx_to_html
+    docs:
+    - '/Users/bhargavsaidama/my_articles/Indian-economy.docx'           # documents to be converted
+    - '/Users/bhargavsaidama/my_articles/second-test.docx'
+
+  - step: testing the second step of the process
+    action: soso
+    docs:
+    - 'nanvlla'                                                         # docs is a key word in this package
